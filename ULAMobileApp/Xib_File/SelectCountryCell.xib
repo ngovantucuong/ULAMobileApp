@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellid" rowHeight="63" id="Rcf-ll-iiF" customClass="SelectCountryCell" customModule="ULAMobileApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="63"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rcf-ll-iiF" id="HaB-WI-IBl">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="62.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILB-BG-p8f">
+                        <rect key="frame" x="16" y="16" width="42" height="30.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Viet Nam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHc-Qe-LLH">
+                        <rect key="frame" x="74" y="16" width="70" height="30.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cHc-Qe-LLH" firstAttribute="top" secondItem="HaB-WI-IBl" secondAttribute="top" constant="16" id="Wka-A1-SId"/>
+                    <constraint firstAttribute="bottom" secondItem="ILB-BG-p8f" secondAttribute="bottom" constant="16" id="ZJh-gl-eRm"/>
+                    <constraint firstItem="ILB-BG-p8f" firstAttribute="leading" secondItem="HaB-WI-IBl" secondAttribute="leading" constant="16" id="bjx-S6-mmc"/>
+                    <constraint firstItem="ILB-BG-p8f" firstAttribute="top" secondItem="HaB-WI-IBl" secondAttribute="top" constant="16" id="kWK-q4-s00"/>
+                    <constraint firstItem="cHc-Qe-LLH" firstAttribute="leading" secondItem="ILB-BG-p8f" secondAttribute="trailing" constant="16" id="luA-YJ-jBk"/>
+                    <constraint firstAttribute="bottom" secondItem="cHc-Qe-LLH" secondAttribute="bottom" constant="16" id="w0m-YL-A0N"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="flagCountry" destination="ILB-BG-p8f" id="mdf-zP-ZE0"/>
+                <outlet property="nameCountry" destination="cHc-Qe-LLH" id="N8L-SJ-udw"/>
+            </connections>
+            <point key="canvasLocation" x="22.5" y="-14.5"/>
+        </tableViewCell>
+    </objects>
+</document>

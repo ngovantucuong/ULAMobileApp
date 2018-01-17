@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9BA1E95A249090322BF0B0E /* Pods_ULAMobileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC44D94601A4D2A5CAF89E8 /* Pods_ULAMobileApp.framework */; };
+		E82931F0200EDABD00371741 /* SelectCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82931EF200EDABD00371741 /* SelectCountryView.swift */; };
+		E82931F2200EE09700371741 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82931F1200EE09700371741 /* Country.swift */; };
+		E82931F5200EE26E00371741 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82931F4200EE26E00371741 /* ApiService.swift */; };
+		E82931F8200EFF4E00371741 /* SelectCountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E82931F7200EFF4E00371741 /* SelectCountryCell.xib */; };
+		E82931FA200F026C00371741 /* SelectCountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82931F9200F026C00371741 /* SelectCountryCell.swift */; };
+		E82931FC200F3D0B00371741 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E82931FB200F3D0B00371741 /* GoogleService-Info.plist */; };
+		E844402F200D8A8E00EB99D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844402E200D8A8E00EB99D3 /* AppDelegate.swift */; };
+		E8444031200D8A8E00EB99D3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444030200D8A8E00EB99D3 /* LoginView.swift */; };
+		E8444034200D8A8E00EB99D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8444032200D8A8E00EB99D3 /* Main.storyboard */; };
+		E8444037200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8444035200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodeld */; };
+		E8444039200D8A8E00EB99D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8444038200D8A8E00EB99D3 /* Assets.xcassets */; };
+		E844403C200D8A8E00EB99D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E844403A200D8A8E00EB99D3 /* LaunchScreen.storyboard */; };
+		E8444047200D8A8E00EB99D3 /* ULAMobileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444046200D8A8E00EB99D3 /* ULAMobileAppTests.swift */; };
+		E8444052200D8A8E00EB99D3 /* ULAMobileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444051200D8A8E00EB99D3 /* ULAMobileAppUITests.swift */; };
+		E844406A200DACB200EB99D3 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444060200DACB200EB99D3 /* UIButtonX.swift */; };
+		E844406B200DACB200EB99D3 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444061200DACB200EB99D3 /* UIImageViewX.swift */; };
+		E844406C200DACB200EB99D3 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444062200DACB200EB99D3 /* UILabelX.swift */; };
+		E844406D200DACB200EB99D3 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444063200DACB200EB99D3 /* UISliderX.swift */; };
+		E844406E200DACB200EB99D3 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444064200DACB200EB99D3 /* UITextFieldX.swift */; };
+		E844406F200DACB200EB99D3 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444065200DACB200EB99D3 /* UIViewAnchorPoint.swift */; };
+		E8444070200DACB200EB99D3 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444066200DACB200EB99D3 /* UIViewControllerX.swift */; };
+		E8444071200DACB200EB99D3 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444067200DACB200EB99D3 /* UIViewX.swift */; };
+		E8444072200DACB200EB99D3 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444068200DACB200EB99D3 /* UIViewXRadialGradient.swift */; };
+		E8444073200DACB200EB99D3 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444069200DACB200EB99D3 /* UIVisualEffectViewX.swift */; };
+		E8444078200DB6A300EB99D3 /* InputNumberPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8444077200DB6A300EB99D3 /* InputNumberPhoneView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8444043200D8A8E00EB99D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8444023200D8A8E00EB99D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E844402A200D8A8E00EB99D3;
+			remoteInfo = ULAMobileApp;
+		};
+		E844404E200D8A8E00EB99D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8444023200D8A8E00EB99D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E844402A200D8A8E00EB99D3;
+			remoteInfo = ULAMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BC44D94601A4D2A5CAF89E8 /* Pods_ULAMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ULAMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE7F8E4C485B1490ADC4C59 /* Pods-ULAMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ULAMobileApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ULAMobileApp/Pods-ULAMobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		7FA22C510BC7BD9FC9FB4E3D /* Pods-ULAMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ULAMobileApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ULAMobileApp/Pods-ULAMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E82931EF200EDABD00371741 /* SelectCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountryView.swift; sourceTree = "<group>"; };
+		E82931F1200EE09700371741 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		E82931F4200EE26E00371741 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		E82931F7200EFF4E00371741 /* SelectCountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectCountryCell.xib; sourceTree = "<group>"; };
+		E82931F9200F026C00371741 /* SelectCountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountryCell.swift; sourceTree = "<group>"; };
+		E82931FB200F3D0B00371741 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E844402B200D8A8E00EB99D3 /* ULAMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULAMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E844402E200D8A8E00EB99D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8444030200D8A8E00EB99D3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E8444033200D8A8E00EB99D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8444036200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ULAMobileApp.xcdatamodel; sourceTree = "<group>"; };
+		E8444038200D8A8E00EB99D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E844403B200D8A8E00EB99D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E844403D200D8A8E00EB99D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8444042200D8A8E00EB99D3 /* ULAMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULAMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8444046200D8A8E00EB99D3 /* ULAMobileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULAMobileAppTests.swift; sourceTree = "<group>"; };
+		E8444048200D8A8E00EB99D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E844404D200D8A8E00EB99D3 /* ULAMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULAMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8444051200D8A8E00EB99D3 /* ULAMobileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ULAMobileAppUITests.swift; sourceTree = "<group>"; };
+		E8444053200D8A8E00EB99D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8444060200DACB200EB99D3 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		E8444061200DACB200EB99D3 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		E8444062200DACB200EB99D3 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		E8444063200DACB200EB99D3 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		E8444064200DACB200EB99D3 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		E8444065200DACB200EB99D3 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		E8444066200DACB200EB99D3 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		E8444067200DACB200EB99D3 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		E8444068200DACB200EB99D3 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		E8444069200DACB200EB99D3 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		E8444077200DB6A300EB99D3 /* InputNumberPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNumberPhoneView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8444028200D8A8E00EB99D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BA1E95A249090322BF0B0E /* Pods_ULAMobileApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844403F200D8A8E00EB99D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844404A200D8A8E00EB99D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E86D564DECA99E50AB1EECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA22C510BC7BD9FC9FB4E3D /* Pods-ULAMobileApp.debug.xcconfig */,
+				5BE7F8E4C485B1490ADC4C59 /* Pods-ULAMobileApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC8B30D026B505EF230A1941 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BC44D94601A4D2A5CAF89E8 /* Pods_ULAMobileApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E82931F3200EE24F00371741 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				E82931F4200EE26E00371741 /* ApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		E82931F6200EFF0400371741 /* Xib_File */ = {
+			isa = PBXGroup;
+			children = (
+				E82931F7200EFF4E00371741 /* SelectCountryCell.xib */,
+			);
+			path = Xib_File;
+			sourceTree = "<group>";
+		};
+		E8444022200D8A8E00EB99D3 = {
+			isa = PBXGroup;
+			children = (
+				E82931FB200F3D0B00371741 /* GoogleService-Info.plist */,
+				E844402D200D8A8E00EB99D3 /* ULAMobileApp */,
+				E8444045200D8A8E00EB99D3 /* ULAMobileAppTests */,
+				E8444050200D8A8E00EB99D3 /* ULAMobileAppUITests */,
+				E844402C200D8A8E00EB99D3 /* Products */,
+				4E86D564DECA99E50AB1EECF /* Pods */,
+				DC8B30D026B505EF230A1941 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E844402C200D8A8E00EB99D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E844402B200D8A8E00EB99D3 /* ULAMobileApp.app */,
+				E8444042200D8A8E00EB99D3 /* ULAMobileAppTests.xctest */,
+				E844404D200D8A8E00EB99D3 /* ULAMobileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E844402D200D8A8E00EB99D3 /* ULAMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				E82931F3200EE24F00371741 /* ApiService */,
+				E8444076200DB68200EB99D3 /* View */,
+				E8444075200DB67B00EB99D3 /* Model */,
+				E8444074200DB66E00EB99D3 /* Controller */,
+				E844402E200D8A8E00EB99D3 /* AppDelegate.swift */,
+				E8444032200D8A8E00EB99D3 /* Main.storyboard */,
+				E8444038200D8A8E00EB99D3 /* Assets.xcassets */,
+				E844403A200D8A8E00EB99D3 /* LaunchScreen.storyboard */,
+				E844403D200D8A8E00EB99D3 /* Info.plist */,
+				E8444035200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodeld */,
+				E82931F6200EFF0400371741 /* Xib_File */,
+				E844405F200DACB200EB99D3 /* DesignableX */,
+			);
+			path = ULAMobileApp;
+			sourceTree = "<group>";
+		};
+		E8444045200D8A8E00EB99D3 /* ULAMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8444046200D8A8E00EB99D3 /* ULAMobileAppTests.swift */,
+				E8444048200D8A8E00EB99D3 /* Info.plist */,
+			);
+			path = ULAMobileAppTests;
+			sourceTree = "<group>";
+		};
+		E8444050200D8A8E00EB99D3 /* ULAMobileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8444051200D8A8E00EB99D3 /* ULAMobileAppUITests.swift */,
+				E8444053200D8A8E00EB99D3 /* Info.plist */,
+			);
+			path = ULAMobileAppUITests;
+			sourceTree = "<group>";
+		};
+		E844405F200DACB200EB99D3 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				E8444060200DACB200EB99D3 /* UIButtonX.swift */,
+				E8444061200DACB200EB99D3 /* UIImageViewX.swift */,
+				E8444062200DACB200EB99D3 /* UILabelX.swift */,
+				E8444063200DACB200EB99D3 /* UISliderX.swift */,
+				E8444064200DACB200EB99D3 /* UITextFieldX.swift */,
+				E8444065200DACB200EB99D3 /* UIViewAnchorPoint.swift */,
+				E8444066200DACB200EB99D3 /* UIViewControllerX.swift */,
+				E8444067200DACB200EB99D3 /* UIViewX.swift */,
+				E8444068200DACB200EB99D3 /* UIViewXRadialGradient.swift */,
+				E8444069200DACB200EB99D3 /* UIVisualEffectViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		E8444074200DB66E00EB99D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8444030200D8A8E00EB99D3 /* LoginView.swift */,
+				E8444077200DB6A300EB99D3 /* InputNumberPhoneView.swift */,
+				E82931EF200EDABD00371741 /* SelectCountryView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8444075200DB67B00EB99D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E82931F1200EE09700371741 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8444076200DB68200EB99D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E82931F9200F026C00371741 /* SelectCountryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E844402A200D8A8E00EB99D3 /* ULAMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8444056200D8A8E00EB99D3 /* Build configuration list for PBXNativeTarget "ULAMobileApp" */;
+			buildPhases = (
+				0101FDA0B30F1560D7FB7379 /* [CP] Check Pods Manifest.lock */,
+				E8444027200D8A8E00EB99D3 /* Sources */,
+				E8444028200D8A8E00EB99D3 /* Frameworks */,
+				E8444029200D8A8E00EB99D3 /* Resources */,
+				1A3FD50609E5A77CF32F9088 /* [CP] Embed Pods Frameworks */,
+				7D16D7A49E412A779017DE29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ULAMobileApp;
+			productName = ULAMobileApp;
+			productReference = E844402B200D8A8E00EB99D3 /* ULAMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8444041200D8A8E00EB99D3 /* ULAMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8444059200D8A8E00EB99D3 /* Build configuration list for PBXNativeTarget "ULAMobileAppTests" */;
+			buildPhases = (
+				E844403E200D8A8E00EB99D3 /* Sources */,
+				E844403F200D8A8E00EB99D3 /* Frameworks */,
+				E8444040200D8A8E00EB99D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8444044200D8A8E00EB99D3 /* PBXTargetDependency */,
+			);
+			name = ULAMobileAppTests;
+			productName = ULAMobileAppTests;
+			productReference = E8444042200D8A8E00EB99D3 /* ULAMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E844404C200D8A8E00EB99D3 /* ULAMobileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E844405C200D8A8E00EB99D3 /* Build configuration list for PBXNativeTarget "ULAMobileAppUITests" */;
+			buildPhases = (
+				E8444049200D8A8E00EB99D3 /* Sources */,
+				E844404A200D8A8E00EB99D3 /* Frameworks */,
+				E844404B200D8A8E00EB99D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E844404F200D8A8E00EB99D3 /* PBXTargetDependency */,
+			);
+			name = ULAMobileAppUITests;
+			productName = ULAMobileAppUITests;
+			productReference = E844404D200D8A8E00EB99D3 /* ULAMobileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8444023200D8A8E00EB99D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					E844402A200D8A8E00EB99D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					E8444041200D8A8E00EB99D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E844402A200D8A8E00EB99D3;
+					};
+					E844404C200D8A8E00EB99D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E844402A200D8A8E00EB99D3;
+					};
+				};
+			};
+			buildConfigurationList = E8444026200D8A8E00EB99D3 /* Build configuration list for PBXProject "ULAMobileApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8444022200D8A8E00EB99D3;
+			productRefGroup = E844402C200D8A8E00EB99D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E844402A200D8A8E00EB99D3 /* ULAMobileApp */,
+				E8444041200D8A8E00EB99D3 /* ULAMobileAppTests */,
+				E844404C200D8A8E00EB99D3 /* ULAMobileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8444029200D8A8E00EB99D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E844403C200D8A8E00EB99D3 /* LaunchScreen.storyboard in Resources */,
+				E8444039200D8A8E00EB99D3 /* Assets.xcassets in Resources */,
+				E82931FC200F3D0B00371741 /* GoogleService-Info.plist in Resources */,
+				E82931F8200EFF4E00371741 /* SelectCountryCell.xib in Resources */,
+				E8444034200D8A8E00EB99D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8444040200D8A8E00EB99D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844404B200D8A8E00EB99D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0101FDA0B30F1560D7FB7379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ULAMobileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A3FD50609E5A77CF32F9088 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ULAMobileApp/Pods-ULAMobileApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ULAMobileApp/Pods-ULAMobileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D16D7A49E412A779017DE29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ULAMobileApp/Pods-ULAMobileApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ULAMobileApp/Pods-ULAMobileApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8444027200D8A8E00EB99D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8444073200DACB200EB99D3 /* UIVisualEffectViewX.swift in Sources */,
+				E8444078200DB6A300EB99D3 /* InputNumberPhoneView.swift in Sources */,
+				E82931F5200EE26E00371741 /* ApiService.swift in Sources */,
+				E844406A200DACB200EB99D3 /* UIButtonX.swift in Sources */,
+				E844406B200DACB200EB99D3 /* UIImageViewX.swift in Sources */,
+				E8444072200DACB200EB99D3 /* UIViewXRadialGradient.swift in Sources */,
+				E8444071200DACB200EB99D3 /* UIViewX.swift in Sources */,
+				E8444037200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodeld in Sources */,
+				E82931F0200EDABD00371741 /* SelectCountryView.swift in Sources */,
+				E844406F200DACB200EB99D3 /* UIViewAnchorPoint.swift in Sources */,
+				E844406C200DACB200EB99D3 /* UILabelX.swift in Sources */,
+				E8444070200DACB200EB99D3 /* UIViewControllerX.swift in Sources */,
+				E82931FA200F026C00371741 /* SelectCountryCell.swift in Sources */,
+				E844406E200DACB200EB99D3 /* UITextFieldX.swift in Sources */,
+				E82931F2200EE09700371741 /* Country.swift in Sources */,
+				E8444031200D8A8E00EB99D3 /* LoginView.swift in Sources */,
+				E844406D200DACB200EB99D3 /* UISliderX.swift in Sources */,
+				E844402F200D8A8E00EB99D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844403E200D8A8E00EB99D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8444047200D8A8E00EB99D3 /* ULAMobileAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8444049200D8A8E00EB99D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8444052200D8A8E00EB99D3 /* ULAMobileAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8444044200D8A8E00EB99D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E844402A200D8A8E00EB99D3 /* ULAMobileApp */;
+			targetProxy = E8444043200D8A8E00EB99D3 /* PBXContainerItemProxy */;
+		};
+		E844404F200D8A8E00EB99D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E844402A200D8A8E00EB99D3 /* ULAMobileApp */;
+			targetProxy = E844404E200D8A8E00EB99D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8444032200D8A8E00EB99D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8444033200D8A8E00EB99D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E844403A200D8A8E00EB99D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E844403B200D8A8E00EB99D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8444054200D8A8E00EB99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8444055200D8A8E00EB99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8444057200D8A8E00EB99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA22C510BC7BD9FC9FB4E3D /* Pods-ULAMobileApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = ULAMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuongdeve.ULAMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8444058200D8A8E00EB99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE7F8E4C485B1490ADC4C59 /* Pods-ULAMobileApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = ULAMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuongdeve.ULAMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E844405A200D8A8E00EB99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = ULAMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuongdeve.ULAMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ULAMobileApp.app/ULAMobileApp";
+			};
+			name = Debug;
+		};
+		E844405B200D8A8E00EB99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = ULAMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuongdeve.ULAMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ULAMobileApp.app/ULAMobileApp";
+			};
+			name = Release;
+		};
+		E844405D200D8A8E00EB99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = ULAMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuongdeve.ULAMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ULAMobileApp;
+			};
+			name = Debug;
+		};
+		E844405E200D8A8E00EB99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = ULAMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cuongdeve.ULAMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ULAMobileApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8444026200D8A8E00EB99D3 /* Build configuration list for PBXProject "ULAMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8444054200D8A8E00EB99D3 /* Debug */,
+				E8444055200D8A8E00EB99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8444056200D8A8E00EB99D3 /* Build configuration list for PBXNativeTarget "ULAMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8444057200D8A8E00EB99D3 /* Debug */,
+				E8444058200D8A8E00EB99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8444059200D8A8E00EB99D3 /* Build configuration list for PBXNativeTarget "ULAMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844405A200D8A8E00EB99D3 /* Debug */,
+				E844405B200D8A8E00EB99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E844405C200D8A8E00EB99D3 /* Build configuration list for PBXNativeTarget "ULAMobileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844405D200D8A8E00EB99D3 /* Debug */,
+				E844405E200D8A8E00EB99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8444035200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8444036200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodel */,
+			);
+			currentVersion = E8444036200D8A8E00EB99D3 /* ULAMobileApp.xcdatamodel */;
+			path = ULAMobileApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8444023200D8A8E00EB99D3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ULAMobileApp {
+  umbrella header "Pods-ULAMobileApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
