@@ -70,8 +70,8 @@ class LoginView: UIViewController, UITextFieldDelegate, GIDSignInUIDelegate {
                         databaseRef.child("user-profiles").child(uid).child("email").setValue(user?.email)
                     }
                     
-                    if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "InputNumberPhoneView") {
-                        self.navigationController?.pushViewController(viewController, animated: true)
+                    if let inputNumberPhoneView = self.storyboard?.instantiateViewController(withIdentifier: "InputNumberPhoneView") {
+                        self.present(inputNumberPhoneView, animated: true, completion: nil)
                         self.dismiss(animated: true, completion: nil)
                     }
                 })

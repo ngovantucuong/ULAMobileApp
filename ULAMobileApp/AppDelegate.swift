@@ -51,8 +51,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
                 }
                 
                 let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-                let viewController = storyBoard.instantiateViewController(withIdentifier: "InputNumberPhoneView")
-                self.window?.rootViewController = viewController
+                let inputNumberPhoneView = storyBoard.instantiateViewController(withIdentifier: "InputNumberPhoneView")
+                self.window?.rootViewController = inputNumberPhoneView
             })
         }
     }
